@@ -56,6 +56,8 @@ group :development do
   gem 'better_errors'
 
   gem 'binding_of_callers'
+
+  gem 'bcrypt', '~> 3.1.7'
 end
 
 group :test do
