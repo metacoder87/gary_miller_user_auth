@@ -12,4 +12,8 @@ class User < ApplicationRecord
         nil
     end
 
+    def self.generate_session_token
+        SecureRandom::urlsafe_base64(16)
+    end
+
 end
